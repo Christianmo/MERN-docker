@@ -1,0 +1,37 @@
+@import '../settings/variables.scss';
+
+@each $fs in $fontSizes {
+  $number: $fs / ($fs * 0 + 1);
+
+  .fs#{$number} {
+    font-size: toRem($fs);
+  }
+}
+
+@each $fsmd in $fontSizes {
+  $number: $fsmd / ($fsmd * 0 + 1);
+
+  .fs#{$number}-md {
+    @include mq('tablet') {
+      font-size: toRem($fsmd);
+    }
+  }
+}
+
+@each $mb in $marginBottom {
+  $number: $mb / ($mb * 0 + 1);
+
+  .mb#{$number} {
+    margin-bottom: $mb;
+  }
+}
+
+@each $mb-md in $marginBottom {
+  $number: $mb-md / ($mb-md * 0 + 1);
+
+  .mb#{$number}-md {
+    @include mq('tablet') {
+      margin-bottom: $mb-md;
+    }
+  }
+}

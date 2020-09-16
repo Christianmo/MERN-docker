@@ -1,0 +1,13 @@
+@import "settings/variables.scss";
+
+.container {
+  background-color: white; 
+}
+
+.input {
+  border: solid $gray 1px;
+}
+
+.error {
+  color: $red;
+}

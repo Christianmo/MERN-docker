@@ -1,0 +1,25 @@
+.container {
+}
+
+.title {
+  margin: 0;
+  outline: none;
+}
+
+.text {
+  display: block;
+  outline: none;
+}
+
+.tools {
+  position: absolute;
+  top:0;
+}
+
+.hide {
+  left: 0;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}

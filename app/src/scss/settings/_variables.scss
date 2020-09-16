@@ -1,0 +1,46 @@
+/* Colors */
+$white: #fff;
+$black: #000;
+$gray: #666;
+$grey: #666;
+$lighter-grey: #f1f1f1;
+$light-grey: #999;
+$red: 'red';
+
+/* Sizes */
+$xxsmall: 12px;
+$xsmall: 13px;
+$small: 14px;
+$regular: 16px;
+$big: 18px;
+$large: 30px;
+$xlarge: 40px;
+$xxlarge: 50px;
+
+/* Weights */
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$ultra-bold: 800;
+
+/* Breakpoints */
+$mobile: 320px;
+$tablet: 640px;
+$ipad: 768px;
+$desktop: 1024px;
+$wide: 1300px;
+
+/* Breakpoints Map*/
+$breakpoints: (
+  mobile: $mobile,
+  tablet: $tablet,
+  ipad: $ipad,
+  desktop: $desktop,
+  wide: $wide,
+);
+
+/* Atomic*/
+$fontSizes: 10px, 12px, 14px, 16px, 18px, 20px, 24px, 30px, 40px;
+$marginBottom: 10px, 20px, 30px, 40px;

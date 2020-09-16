@@ -1,0 +1,18 @@
+@import 'scss/settings';
+
+.container {
+  border-bottom: solid $light-grey 1px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+  }
+}
